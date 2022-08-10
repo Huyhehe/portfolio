@@ -16,9 +16,16 @@ module.exports = {
             left: "100%",
           },
         },
+        blink: {
+          to: {
+            background: "transparent",
+          },
+        },
       },
       animation: {
         typing: "typeWriter 4s steps(16) forwards",
+        blink:
+          "typeWriter 4s steps(16) forwards, blink 500ms 4s linear infinite",
       },
     },
   },

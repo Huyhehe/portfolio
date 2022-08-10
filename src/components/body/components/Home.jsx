@@ -40,7 +40,7 @@ const Home = () => {
                   <strong
                     className="text-hoverColor relative 
                   before:absolute before:content[''] before:top-0 before:left-0 before:bottom-0 before:right-0 before:bg-bgPrimary before:animate-typing
-                  after:absolute after:content[''] after:top-0 after:left-0 after:bottom-0 after:right-0 after:w-[0.125rem] after:bg-black after:animate-typing"
+                  after:absolute after:content[''] after:top-0 after:left-0 after:bottom-0 after:right-0 after:w-[0.15rem] after:bg-black after:animate-blink"
                   >
                     Nguyễn Thành Huy
                   </strong>

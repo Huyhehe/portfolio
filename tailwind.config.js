@@ -17,15 +17,15 @@ module.exports = {
           },
         },
         blink: {
-          to: {
-            background: "transparent",
-          },
+          "0%": { opacity: 0 },
+          "49%": { opacity: 0 },
+          "50%": { opacity: 1 },
         },
       },
       animation: {
         typing: "typeWriter 4s steps(16) forwards",
         blink:
-          "typeWriter 4s steps(16) forwards, blink 500ms 4s linear infinite",
+          "typeWriter 4s steps(16) forwards, blink 750ms 4s linear infinite",
       },
     },
   },

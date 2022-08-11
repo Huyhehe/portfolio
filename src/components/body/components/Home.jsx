@@ -1,6 +1,7 @@
-import Title1 from "../../reuseable/Title1";
-import { avatar } from "../../../assets/images/index";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import { avatar } from "../../../assets/images/index";
+import Title1 from "../../reuseable/Title1";
+import "../styles/styles.css";
 
 import { Facebook, Instagram, Twitter } from "@mui/icons-material/";
 
@@ -29,16 +30,16 @@ const Home = () => {
   };
   return (
     <>
-      <div className="home-wrapper mx-[5rem] flex flex-col gap-[15rem]">
+      <div className="home-wrapper mx-[5rem] flex flex-col gap-[15rem] pb-[5rem]">
         <div className="top-container px-[10%] flex gap-[15rem] items-center">
           <div className="information flex flex-col gap-[5rem]">
             <div className="description flex flex-col gap-[1rem] pt-[10rem]">
               <Title1 configClassName={titleClassName} title="Hello" />
-              <div className="title-name text-[3rem] text-textPrimary font-black">
+              <div className="title-name text-[3rem] text-textPrimary font-bold roboto-mono">
                 <p>
                   I'm{" "}
                   <strong
-                    className="text-hoverColor relative 
+                    className="font-bold text-hoverColor relative 
                   before:absolute before:content[''] before:top-0 before:left-0 before:bottom-0 before:right-0 before:bg-bgPrimary before:animate-typing
                   after:absolute after:content[''] after:top-0 after:left-0 after:bottom-0 after:right-0 after:w-[0.15rem] after:bg-black after:animate-blink"
                   >

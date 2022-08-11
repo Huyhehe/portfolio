@@ -1,0 +1,14 @@
+:root {
+  --progress-width: 50%;
+}
+
+.jetbrain-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+.skill-progress::after {
+  width: var(--progress-width);
+}

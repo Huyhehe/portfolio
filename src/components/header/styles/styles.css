@@ -1,0 +1,26 @@
+.navbar-item::after,
+.navbar-item::before {
+  content: "";
+  position: absolute;
+  background-color: #fd003d;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-item::before {
+  left: 50%;
+}
+.navbar-item::after {
+  right: 50%;
+}
+
+.navbar-item:hover::before {
+  left: 0;
+  width: 50%;
+}
+.navbar-item:hover::after {
+  right: 0;
+  width: 50%;
+}

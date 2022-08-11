@@ -3,7 +3,7 @@ import { avatar } from "../../../assets/images/index";
 import Title1 from "../../reuseable/Title1";
 import "../styles/styles.css";
 
-import { Facebook, Instagram, Twitter } from "@mui/icons-material/";
+import { Facebook, Instagram, Twitter, LinkedIn } from "@mui/icons-material/";
 
 const Home = () => {
   const titleClassName = "tracking-widest uppercase";
@@ -22,6 +22,11 @@ const Home = () => {
       title: "twitter",
       img: Twitter,
       href: "https://twitter.com/huyhehe1712",
+    },
+    {
+      title: "linkedin",
+      img: LinkedIn,
+      href: "https://www.linkedin.com/in/nguy%E1%BB%85n-huy-860798240/",
     },
   ];
 

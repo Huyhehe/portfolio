@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Home from "./components/Home";
+import Project from "./components/Project";
 
 const Body = () => {
   return (
@@ -9,6 +10,9 @@ const Body = () => {
       </div>
       <div className="about shadow-sm bg-bgSecondary">
         <About />
+      </div>
+      <div className="project shadow-md">
+        <Project />
       </div>
     </>
   );

@@ -1,7 +1,9 @@
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import DownloadIcon from "@mui/icons-material/Download";
 import { avatar } from "../../../assets/images/index";
 import Title1 from "../../reuseable/Title1";
 import "../styles/styles.css";
+import { MyCV } from "../../../assets/PDF/index";
 
 import { Facebook, Instagram, Twitter, LinkedIn } from "@mui/icons-material/";
 
@@ -32,6 +34,9 @@ const Home = () => {
 
   const handleIcon = (e) => {
     e.target.querySelector("a").click();
+  };
+  const handleDownloadCV = (e) => {
+    e.target.querySelector("a")?.click();
   };
   return (
     <>
@@ -74,11 +79,24 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="button px-[2rem] py-[0.75rem] bg-hoverColor w-fit cursor-pointer flex items-center transition-all gap-[0.5rem] hover:gap-[1rem]">
-              <span className="text-white tracking-wider font-bold uppercase">
-                Take a look
+            <div
+              className="button px-[2rem] py-[0.75rem] bg-hoverColor hover:bg-[#c70230] w-fit cursor-pointer flex items-center transition-all gap-[0.5rem]"
+              onClick={(e) => handleDownloadCV(e)}
+            >
+              <span className="text-white tracking-wider font-bold uppercase pointer-events-none">
+                Download my CV
               </span>
-              <ArrowRightAltIcon sx={{ color: "#ffffff" }} />
+              <DownloadIcon
+                sx={{ color: "#ffffff" }}
+                className="pointer-events-none"
+              />
+              <a
+                href={MyCV}
+                download="CV_NguyenThanhHuy.pdf"
+                className="hidden"
+              >
+                a
+              </a>
             </div>
           </div>
           <div className="avatar">

@@ -27,6 +27,11 @@ module.exports = {
         blink:
           "typeWriter 4s steps(16) forwards, blink 750ms 4s linear infinite",
       },
+      screens: {
+        pc: "1280px",
+        tablet: { min: "640px", max: "1279px" },
+        mobile: "300px",
+      },
     },
   },
   plugins: [],

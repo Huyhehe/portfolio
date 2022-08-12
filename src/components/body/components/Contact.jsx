@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact-main flex px-[20rem] justify-between">
+        <div className="contact-main flex justify-center gap-[10rem] pc:flex-col pc:items-center tablet:flex-col tablet:items-center">
           <div className="contact-info flex flex-col">
             <div className="info-privacy flex flex-col gap-[1.5rem] max-w-[35rem] py-[3rem]">
               <div>

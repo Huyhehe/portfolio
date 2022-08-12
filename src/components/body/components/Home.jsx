@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <>
       <div className="home-wrapper mx-[5rem] flex flex-col gap-[15rem] pb-[5rem]">
-        <div className="top-container px-[10%] flex gap-[15rem] items-center">
+        <div className="top-container px-[10%] flex justify-center gap-[10rem] items-center">
           <div className="information flex flex-col gap-[5rem]">
             <div className="description flex flex-col gap-[1rem] pt-[10rem]">
               <Title1 configClassName={titleClassName} title="Hello" />

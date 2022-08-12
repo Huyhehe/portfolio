@@ -88,7 +88,7 @@ const Home = () => {
           </div>
         </div>
         <div className="bottom-container flex justify-between">
-          <div className="contact flex gap-8">
+          <div className="contact-icon flex gap-8">
             {contacts.map((contact, index) => {
               const Icon = contact.img;
               return (
@@ -110,7 +110,7 @@ const Home = () => {
               );
             })}
           </div>
-          <div className="point rotate-90 origin-bottom-right tracking-widest">
+          <div className="point rotate-90 origin-bottom-right tracking-[10px]">
             <span>Scroll down</span>
             <ArrowRightAltIcon />
           </div>

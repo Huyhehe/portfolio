@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Project from "./components/Project";
 
@@ -13,6 +14,9 @@ const Body = () => {
       </div>
       <div className="project shadow-md">
         <Project />
+      </div>
+      <div className="contact bg-bgSecondary">
+        <Contact />
       </div>
     </>
   );

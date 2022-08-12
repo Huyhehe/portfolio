@@ -29,7 +29,7 @@ const Project = () => {
     {
       title: "Clone Twitter",
       description:
-        "This project clone from Twitter about UI UX and some basic CRUD working behind, for now this project still on development",
+        "This project is the clone from Twitter about UI UX and some basic CRUD working behind, for now this project still on development",
       cover: twitter,
       href: "http://twitter-clone-huyhehe.surge.sh/",
       since: "July 2022 - Recently",

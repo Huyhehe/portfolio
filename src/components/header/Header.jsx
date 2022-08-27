@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import SwitchButton from "./components/SwitchButton";
+// import SwitchButton from "./components/SwitchButton";
 
 const Header = () => {
   return (
@@ -13,9 +13,7 @@ const Header = () => {
         <div className="navbar">
           <Navbar />
         </div>
-        <div className="switch">
-          <SwitchButton />
-        </div>
+        <div className="switch">{/* <SwitchButton /> */}</div>
       </div>
     </>
   );
